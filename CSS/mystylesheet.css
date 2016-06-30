@@ -1,0 +1,30 @@
+        body{
+            padding-top: 50px;
+        }
+        #jumbotron{
+            background-color: fuchsia;
+        }
+        thead tr th, tr:nth-child(even) td{
+            background-color:greenyellow;
+        }
+        tr:hover td{
+            background-color: pink;
+        }
+        .JobHeader{
+            font-size:  20px;
+        }
+        .JobDate{
+            font-size:  18px;
+        }
+        .JobDescription{
+            font-size:  16px;
+        }
+        .history{
+            text-align: justify;
+        }
+        .toggleP{
+            display:none;
+        }
+        #professionalExperienceHeading{
+            margin-bottom: 13px;
+        }
