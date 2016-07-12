@@ -1,0 +1,28 @@
+Filter:
+<input type="text" ng-model="filterText">
+<br><br>
+
+<!--ul>
+    <li ng-repeat="country in countries | filter:filterText | orderBy:'name':reverse" country="country"/>
+</ul-->   
+   
+   
+   
+<table>
+    <thead>
+        <tr>
+            <th><a href="" ng-click="reverse=!reverse">Country</a></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="country in countriesNames | filter:filterText | orderBy:'':reverse">
+            <td country="country"></td>
+        </tr>
+    </tbody>
+</table>
+
+<!--<div ng-repeat="product in products" ng-if="$index % 3 == 0" class="row">
+    <div class="col-xs-4">{{products[$index]}}</div>
+    <div class="col-xs-4" ng-if="products.length > ($index + 1)">{{products[$index + 1]}}</div>
+    <div class="col-xs-4" ng-if="products.length > ($index + 2)">{{products[$index + 2]}}</div>
+</div>
