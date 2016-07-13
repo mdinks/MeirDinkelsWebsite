@@ -1,0 +1,19 @@
+        #jumbotron{
+            background-color: fuchsia;
+        }
+        .countyNamesTable thead tr th{
+            background-color:greenyellow;
+        }
+        tr:hover td{
+            background-color: pink;
+        }
+        #countryFilterThA{
+            font-size: 180%;
+        }
+        #countryFilterLabel{
+            color: olivedrab;
+            font-size: 150%;
+        }
+        .countryFilterTd{
+            font-size: 150%;
+        }

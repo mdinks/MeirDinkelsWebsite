@@ -1,4 +1,4 @@
-Filter:
+<label id="countryFilterLabel">Country Filter</label>
 <input type="text" ng-model="filterText">
 <br><br>
 
@@ -11,12 +11,12 @@ Filter:
 <table>
     <thead>
         <tr>
-            <th><a href="" ng-click="reverse=!reverse">Country</a></th>
+            <th ><a href="" ng-click="reverse=!reverse" id="countryFilterThA">Country</a></th>
         </tr>
     </thead>
     <tbody>
         <tr ng-repeat="country in countriesNames | filter:filterText | orderBy:'':reverse">
-            <td country="country"></td>
+            <td country="country" class="countryFilterTd"></td>
         </tr>
     </tbody>
 </table>
